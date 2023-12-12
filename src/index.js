@@ -18,7 +18,9 @@ root.render(
   // <React.StrictMode>
   // <App />
   // </React.StrictMode>
+  <div className='max-w-4xl mx-auto'>
     <RouterProvider router={router} />
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
