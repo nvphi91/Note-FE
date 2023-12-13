@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 
 const FolderList = ({ folders }) => {
     const { folderId } = useParams();
-    console.log('id: ', folderId);
+    // console.log('id: ', folderId);
 
     return <div className="bg-[#7D9D9C] overflow-auto h-full">
         <h3 className="font-semibold text-2xl mx-4 my-4">Folders</h3>
